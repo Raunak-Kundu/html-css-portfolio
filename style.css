@@ -1,0 +1,88 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #e9d999, #e97373);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.top-container {
+    position: relative;
+    text-align: center;
+    color: rgb(218, 116, 62);
+  }
+h1{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 	Times New Roman
+    Georgia
+    Garamond;
+    font-weight: bold;
+  }
+  .profile-pic{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  .display{
+    padding-top: 20px;
+    color: rgb(17, 8, 8);
+  }
+  .container > h2{
+    text-align: center;
+    padding-top: 10px;
+  }
+  h2{
+    font-family: 	Times New Roman
+    Georgia
+    Garamond;
+    font-weight: bold;
+  }
+  h4{
+    font-family: 	Times New Roman
+    Georgia
+    Garamond;
+    font-weight: bold;
+  }
+.skills{
+  padding: 5%;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-template-columns: 1fr 1fr ;
+  gap: 20px;
+}
+.contact-me{
+  text-align: center;
+  padding-top: 10px;
+}
+.html-img{
+  height: 200px;
+  width: 200px;
+
+}
+.css{
+  height: 200px;
+  width: 200px;
+
+
+}
+.x{
+  color: aliceblue;
+}
+@media screen and (max-width: 500px) {
+  .html, .css-txt{
+  width: 100%;
+
+  }}
